@@ -1,9 +1,11 @@
 import React from 'react';
+import Cursor from './Custom/Cursor';
 import { photos } from './data';
 
 function App() {
   return (
-    <div>
+    <>
+      <Cursor />
       <div className='header'>
         <div className='logo'>billy</div>
         <ul>
@@ -55,7 +57,7 @@ function App() {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 }
 

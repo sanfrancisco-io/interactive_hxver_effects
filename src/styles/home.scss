@@ -6,6 +6,14 @@ body {
     Ubuntu, 'Helvetica Neue', sans-serif;
 }
 
+html,
+body {
+  &,
+  * {
+    cursor: none;
+  }
+}
+
 .header {
   position: fixed;
   top: 0;
