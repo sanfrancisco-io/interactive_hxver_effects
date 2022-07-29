@@ -31,7 +31,7 @@ function App() {
             controls='0'
           ></iframe>
           <div className='top-banner-scrolldown'>
-            <span>☟</span>
+            <span>Scroll to view more</span>
           </div>
         </div>
       </div>
